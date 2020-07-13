@@ -4,6 +4,8 @@
 // There are two common solutions
 
 // The first uses a for loop
+// Time: 5n + 2 or 2n, depending
+// n additions and n assignments twice, 2 assignments, n comparisons
 
 function addUpTo(n) {
 	let total = 0;
@@ -14,6 +16,8 @@ function addUpTo(n) {
 }
 
 // The second uses the sum formula
+// Time: 3
+// 3 simple operations, regardless of the size of n (multiplication, addition, division)
 
 function addUpToWithFormula(n) {
 	return (n * (n + 1)) / 2;
