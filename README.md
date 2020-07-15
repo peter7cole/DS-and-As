@@ -17,3 +17,10 @@
 > - For fast algorithms, speed measurements may not be precise enough
 > - Talks about how the runtime of an algorithm grows as the inputs grow
 > - Focuses on trends
+>
+> #### Shorthands
+>
+> - Arithmetic operations are constant
+> - Variable assignment is constant
+> - Accessing elements in any array or object by index or key respectively is constant
+> - In a loop, the complexity is the length of the loop times the complexity of whatever happens inside the loop
