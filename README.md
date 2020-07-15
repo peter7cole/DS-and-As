@@ -24,3 +24,8 @@
 > - Variable assignment is constant
 > - Accessing elements in any array or object by index or key respectively is constant
 > - In a loop, the complexity is the length of the loop times the complexity of whatever happens inside the loop
+>
+> #### Space
+>
+> - O(1) for creating new variables
+> - O(n) for arrays and objects with sizes based on the input, n
